@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    /> 
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+
+  </head>
+  <body>
+    <!-- Nav bar and hero start -->
+    <div class="container-fluid main">
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/netflix_PNG32.png" alt="" width="30" height="24" />
+          </a>
+
+          <ul class="navbar-nav d-flex">
+            <li class="nav-item">
+              <a class="nav-link english" aria-current="page" href="#"
+                ><button><select class="form-select" aria-label="Default select example">
+                  <option selected>English</option>
+                  <option value="1">हिन्दी</option>
+                </select></button></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button class="signin">sigin in</button></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Nav bar end -->
+      <!-- main hero start -->
+      <div class="container mainherohead">
+        <h1 class="text-center text-light">
+          Unlimited movies, TV shows and more.
+        </h1>
+        <p class="text-center text-light">Watch anywhere. Cancel anytime.</p>
+        <p class="text-center text-light">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="input-group flex-nowrap mx-auto">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Email"
+            aria-label="Username"
+            aria-describedby="addon-wrapping"
+          />
+          <span>
+            <button type="button" class="btn btn-danger">Get Started</button>
+          </span>
+        </div>
+      </div>
+      <!-- main hero end -->
+    </div>
+    <!-- nav bar hero section end -->
+    <!-- TV section start -->
+    <div class="container-fluid bootom">
+      <div class="container tv">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <h1 class="text-light">Enjoy on your TV.</h1>
+            <p class="text-light">
+              Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+              Blu-ray players and more.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="backimg">
+              <img src="./img/tv.png" />
+              <div class="frontimg">
+                <video
+                  src="./img/video-tv-in-0819.mp4"
+                  autoplay
+                  loop
+                  muted
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TV section end -->
+    <!-- mobile section Start -->
+    <div class="container-fluid bootom">
+      <div class="container mobile">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <div class="imagepart">
+              <img src="./img/mobile-0819.png" alt="phone" />
+            </div>
+            <div class="cardpart">
+              <div class="card">
+                <div class="card-body d-flex">
+                  <div class="firstelemnetcard">
+                    <img src="./img/boxshot.png" alt="st">
+                  </div>
+                  <div class="secondelement">
+                    <h5 class="text-light">
+                      stranger things
+                    </h5>
+                    <p class="text-info">
+                      Downloading....
+                    </p>
+                  </div>
+                  <div class="thirdelement">
+                    <img alt="" src="./img/download.gif">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-light">Download your shows to watch offline.</h1>
+            <p class="text-light">
+              Save your favourites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mobile section end -->
+    <!-- Device section start -->
+    <div class="container-fluid bootom">
+      <div class="container watch">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6">
+            <h1 class="text-light">Watch everywhere.</h1>
+            <p class="text-light">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="device">
+              <img src="./img/device.png" alt="device" />
+              <div class="sacred">
+                <video src="./img/sacred.mp4" autoplay loop muted></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Device section end -->
+    <!-- Children section start -->
+    <div class="container-fluid bootom">
+      <div class="container childrencont">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-6 children">
+            <img src="./img/chilfderen.png" alt="children" />
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-light">Create profiles for children.</h1>
+            <p class="text-light">
+              Send children on adventures with their favourite characters in a
+              space made just for them—free with your membership.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Children section end -->
+    <!-- faq section start -->
+    <div class="container-fluid bootom faqinput">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="text-center text-light faqhead">Frequently Asked Questions</h2>
+          </div>
+          <div class="row faq">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+      
+                    >
+                      <h3>What is Netflix ?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Netflix is a streaming service that offers a wide
+                        variety of award-winning TV shows, movies, anime,
+                        documentaries and more – on thousands of
+                        internet-connected devices.
+                      </p>
+                      <p>
+                        You can watch as much as you want, whenever you want,
+                        without a single ad – all for one low monthly price.
+                        There's always something new to discover, and new TV
+                        shows and movies are added every week!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      <h3>How much does Netflix cost?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Watch Netflix on your smartphone, tablet, Smart TV,
+                        laptop, or streaming device, all for one fixed monthly
+                        fee. Plans range from ₹ 149 to ₹ 649 a month. No extra
+                        costs, no contracts.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      <h3>Where can I watch?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Watch anywhere, anytime. Sign in with your Netflix
+                        account to watch instantly on the web at netflix.com
+                        from your personal computer or on any internet-connected
+                        device that offers the Netflix app, including smart TVs,
+                        smartphones, tablets, streaming media players and game
+                        consoles.
+                      </p>
+                      <p>
+                        You can also download your favourite shows with the iOS,
+                        Android, or Windows 10 app. Use downloads to watch while
+                        you're on the go and without an internet connection.
+                        Take Netflix with you anywhere.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFour"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFour"
+                    >
+                      <h3>Where do I cancel?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Netflix is flexible. There are no annoying contracts and
+                        no commitments. You can easily cancel your account
+                        online in two clicks. There are no cancellation fees –
+                        start or stop your account anytime.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseFive"
+                      aria-expanded="false"
+                      aria-controls="panelsStayOpen-collapseFive"
+                    >
+                      <h3>What can I watch on Netflix?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Netflix has an extensive library of feature films,
+                        documentaries, TV shows, anime, award-winning Netflix
+                        originals, and more. Watch as much as you want, anytime
+                        you want.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#panelsStayOpen-collapseSix"
+                      aria-expanded="true"
+                      aria-controls="panelsStayOpen-collapseSix"
+                    >
+                      <h3>Is Netflix good for kids?</h3>
+                    </button>
+                  </h2>
+                  <div
+                    id="panelsStayOpen-collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingOne"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        The Netflix Kids experience is included in your
+                        membership to give parents control while kids enjoy
+                        family-friendly TV shows and films in their own space.
+                      </p>
+                      <p>
+                        Kids profiles come with PIN-protected parental controls
+                        that let you restrict the maturity rating of content
+                        kids can watch and block specific titles you don’t want
+                        kids to see.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <p class="faqdown text-light text-center">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="input-group flex-nowrap mx-auto">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Email"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+                <span>
+                  <button type="button" class="btn btn-danger">
+                    Get Started
+                  </button>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- faq section end -->
+    <!-- Footer section start -->
+    <div class="container-fluid bootom">
+      <div class="container foot">
+        <div class="headerfooter">
+          <div class="row">
+            <div class="col">
+              <p style="color: #737373">Questions? Call 000-800-040-1843</p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-3">
+            <ul class="list-group">
+              <li class="list-group-item">FAQ</li>
+              <li class="list-group-item">Investor Relations</li>
+              <li class="list-group-item">Privacy</li>
+              <li class="list-group-item">Speed Test</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-group">
+              <li class="list-group-item">Help Centre</li>
+              <li class="list-group-item">Jobs</li>
+              <li class="list-group-item">Cookie Preferences</li>
+              <li class="list-group-item">Legal Notices</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-group">
+              <li class="list-group-item">Account</li>
+              <li class="list-group-item">Ways to Watch</li>
+              <li class="list-group-item">Corporate Information</li>
+              <li class="list-group-item">Only on Netflix</li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-group">
+              <li class="list-group-item">Media Centre</li>
+              <li class="list-group-item">Terms of Use</li>
+              <li class="list-group-item">Contact Us</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                class="input-group mb-3"
+                style="width: 20%; border: 1px solid gray"
+              >
+                <label
+                  class="input-group-text"
+                  for="inputGroupSelect01"
+                  style="background-color: transparent; border: none"
+                  >Options</label
+                >
+                <select
+                  class="form-select"
+                  id="inputGroupSelect01"
+                  style="background-color: transparent; border: none"
+                >
+                  <option selected>English</option>
+                  <option value="1">हिन्दी</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="india">
+                <p style="color: #737373">NETFLIX INDIA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section end -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

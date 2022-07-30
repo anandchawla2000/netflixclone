@@ -1,0 +1,262 @@
+@media only screen and (max-device-width: 1400px) {
+    .mainherohead .input-group {
+        width: 70% !important;
+      }
+      .faqinput .input-group {
+        width: 70% !important;
+      }
+}
+
+@media only screen and (max-device-width: 972px) {
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+
+  .nav-item {
+    padding-left: 1.5rem;
+  }
+
+  .main {
+    width: 100vw !important;
+    height: 85vh !important;
+    background-repeat: no-repeat;
+  }
+
+  .mainherohead {
+    margin-top: 24px !important;
+  }
+
+  .mobile,
+  .childrencont {
+    max-width: 100vw;
+    margin: 0 4px;
+  }
+  .tv h1,
+  .mobile h1,
+  .watch h1,
+  .children h1,
+  .faqhead {
+    font-size: 40px;
+  }
+
+  .tv p,
+  .mobile p,
+  .watch p,
+  .children p,
+  .faqdown {
+    font-size: 20px;
+    padding-top: 2px;
+  }
+  .backimg img {
+    height: 275px;
+  }
+  .frontimg {
+    left: 187px;
+  }
+  .frontimg video {
+    height: 190px;
+  }
+  .imagepart img {
+    height: 301px;
+  }
+
+  .children img {
+    height: 311px;
+  }
+  .device img {
+    height: 311px;
+  }
+  .sacred video {
+    height: 141px;
+  }
+  .sacred {
+    left: 205px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  .main {
+    width: 100vw !important;
+    height: 95vh !important;
+    background-repeat: no-repeat;
+  }
+
+  .mainherohead .input-group {
+    width: 70% !important;
+  }
+  .faqinput .input-group {
+    width: 70% !important;
+  }
+
+  .tv h1,
+  .mobile h1,
+  .watch h1,
+  .children h1,
+  .faqhead {
+    font-size: 30px;
+  }
+
+  .tv p,
+  .mobile p,
+  .watch p,
+  .children p,
+  .faqdown {
+    font-size: 15px;
+    padding-top: 2px;
+  }
+  .col-md-6 {
+    text-align: center;
+  }
+  .children img {
+    height: 282px;
+  }
+  .frontimg {
+    left: 256px;
+    top: 49%;
+  }
+  .frontimg video {
+    height: 154px;
+  }
+  .card {
+    width: 60% !important;
+  }
+  .sacred {
+    left: 255px;
+  }
+
+  .foot .row div {
+    margin-top: 1.6rem;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  .imagepart img {
+    height: 281px;
+  }
+}
+
+@media only screen and (max-device-width: 540px) {
+  .children img {
+    height: 250px;
+  }
+
+  .device img {
+    height: 250px;
+  }
+
+  .sacred video {
+    height: 109px;
+  }
+
+  .sacred {
+    left: 245px;
+  }
+
+  .backimg img {
+    height: 263px;
+  }
+
+  .imagepart img {
+    height: 234px;
+  }
+
+  .card {
+    height: 95px !important;
+  }
+}
+
+@media only screen and (max-device-width: 414px) {
+  .main {
+    width: 100vw !important;
+    height: 100vh !important;
+    background-repeat: no-repeat;
+  }
+  .mainherohead h1 {
+    font-size: 30px;
+  }
+  .mainherohead p {
+    font-size: 20px;
+  }
+
+  .mainherohead .input-group {
+    width: 90% !important;
+  }
+  .faqinput .input-group {
+    width: 90% !important;
+  }
+
+  .nav-item {
+    padding-left: 0.35rem;
+  }
+
+  .navbar-brand {
+    margin: 0;
+  }
+  .tv h1,
+  .mobile h1,
+  .watch h1,
+  .children h1,
+  .faqhead {
+    font-size: 28px;
+  }
+
+  .tv p,
+  .mobile p,
+  .watch p,
+  .children p,
+  .faqdown {
+    font-size: 16px;
+    padding-top: 1px;
+  }
+
+  .children img {
+    height: 200px;
+  }
+
+  .device img {
+    height: 200px;
+  }
+
+  .sacred video {
+    height: 92px;
+  }
+
+  .sacred {
+    left: 183px;
+  }
+
+  .imagepart img {
+    height: 190px;
+  }
+
+  .card {
+    height: 90px !important;
+  }
+
+  .backimg img {
+    height: 236px;
+  }
+
+  .frontimg {
+    left: 180px;
+  }
+
+  .frontimg video {
+    height: 128px;
+  }
+
+  .navbar-brand img {
+    width: 90px;
+    height: 78px;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .frontimg {
+    left: 163px;
+  }
+
+  .sacred {
+    left: 169px;
+  }
+}
